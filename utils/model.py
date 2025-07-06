@@ -6,7 +6,7 @@ import torch as t
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.autograd as autograd
-from minGPT.model import GPT # variation of minGPT supporting attention visualization
+from .minGPT.model import GPT # variation of minGPT supporting attention visualization
 
 MAX_LEN = 40
 VOCAB = "()"
