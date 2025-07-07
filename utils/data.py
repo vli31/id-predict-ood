@@ -35,19 +35,26 @@ def is_balanced_for_loop(parens: str) -> bool:
     
     return cumsum == 0
 
-balancedHeuristic = Heuristic("balanced", 
-                              "standard balanced/unbalanced heuristic",
-                              "balanced", "unbalanced",
-                              is_balanced_for_loop)
-matchedHeuristic  = Heuristic("matched", 
-                              "number of open brackets equals number of closed brackets",
-                              "matched", "unmatched",
-                              lambda s: s.count("(") == s.count(")"))
-enclosureHeuristic = Heuristic("enclosure", 
-                               "first and last brackets are ( and ) respectively",
-                               "(x)", "(x(, )x), )x(",
-                               lambda s: s[0] == "(" and s[-1] == ")")
+def get_heuristics(names_only=False, return_as_dict=False) -> list[Heuristic]:
+    balancedHeuristic = Heuristic("balanced", 
+                                "standard balanced/unbalanced heuristic",
+                                "balanced", "unbalanced",
+                                is_balanced_for_loop)
+    matchedHeuristic  = Heuristic("matched", "number of open brackets equals number of closed brackets",
+                                "matched", "unmatched",
+                                lambda s: all([s.count(open) == s.count(close) for open, close in zip(all_opens, all_closes)]))
 
+    # heuristics that have been implemented
+    ls = [balancedHeuristic, matchedHeuristic]
+
+    if names_only:
+        return [h.name for h in ls]
+    elif return_as_dict:
+        return {h.name: h for h in ls}
+    
+    return ls
+
+balancedHeuristic, matchedHeuristic = get_heuristics()
 
 class SimpleTokenizer:
     """A simple tokenizer that maps characters to integers. Borrowed from the Redwood Research Mlab curriculum."""

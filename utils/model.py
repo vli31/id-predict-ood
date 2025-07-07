@@ -7,10 +7,15 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.autograd as autograd
 from .minGPT.model import GPT # variation of minGPT supporting attention visualization
+from enum import Enum 
 
 MAX_LEN = 40
 VOCAB = "()"
 N_CLASSES = 2
+
+class ModelType(Enum):
+    Transformer = "transformer"
+    LSTM = "LSTM"
 
 # Transformer model with default parameters
 def get_transformer(n_layer:int=2, n_head:int=2, n_embd:int=64,

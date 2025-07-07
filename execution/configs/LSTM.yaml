@@ -1,0 +1,10 @@
+batch_size: 8
+opt: "adam"
+lr: 0.0003
+wd: 0.001
+rdm_seed: 33
+shuffle_seed: 12 
+num_layers: 3
+dropout_rate: 0.0
+embedding_dim: 64
+hidden_dim: 128
