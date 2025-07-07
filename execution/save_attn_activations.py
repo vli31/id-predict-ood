@@ -176,7 +176,7 @@ def classify_attn_head(runs_df_filename, layers=[1, 2, 3], token_idx=-1, checkpo
                         ls.append(prefer_vals[ht][run_id][layer_idx][head_idx])
                     runs_df[f"cp{checkpoint}_{ht}_head_l{layer_idx+1}_h{head_idx+1}_{indist_or_ood}"] = [prefer_vals[ht][run_id][layer_idx][head_idx] for run_id in runs_df['id']]
     # save csv
-    runs_df.to_csv("all_sweeps_df.csv", index=False)
+    runs_df.to_csv("transformer_head_properties.csv", index=False)
     return prefer_vals
 
 
