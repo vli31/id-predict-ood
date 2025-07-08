@@ -3,7 +3,7 @@
 Interpretability research often aims to predict how a model will respond to targeted interventions on specific mechanisms. However, it rarely predicts how a model will respond to unseen *input data*. This paper explores the promises and challenges of interpretability as a tool for predicting out-of-distribution (OOD) model behavior. Our findings offer a proof-of-concept to motivate further interpretability work on predicting unseen model behavior.
 
 <p align="center">
-    <img src="visual_abstract.png" alt="Plot" width="450" />
+    <img src="visual_abstract.png" alt="Visual abstract for the paper creating a varied model population trained on an under-determined rule, before evaluating the effect of ID internals on OOD behavior." width="450" />
 <p>
 
 ---
