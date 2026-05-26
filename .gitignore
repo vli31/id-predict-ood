@@ -1,0 +1,43 @@
+# Model weights (~1.8GB) — excluded from the public release
+data/model_weights/
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.ipynb_checkpoints/
+
+# LaTeX build artifacts (if compiled here)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+.localtex/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Local scratch
+try.py
+yes.py
+go.ipynb
+hey.ipynb
+
+# arXiv reference PDFs (downloaded for literature review, not part of the release)
+2106.06981v2.pdf
+21130_Can_Interpretation_Predi.pdf
+2205.12411v5.pdf
+2502.17356v5*.pdf
+2506.19708v1.pdf
