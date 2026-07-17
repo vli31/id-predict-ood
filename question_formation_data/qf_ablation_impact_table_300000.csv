@@ -1,0 +1,9 @@
+ablation,population,n,mean_OOD_before,mean_OOD_after,mean_dOOD,moe95_dOOD,ci95_dOOD,median_dOOD,std_dOOD,%damaged,%improved,mean_dID,moe95_dID
+Uniform · all together,contains head,59,0.691,0.683,-0.007,0.012,"[-0.020, +0.004]",-0.0,0.047,15.254,11.864,0.0,0.0
+Uniform · all together,absent,20,0.388,0.388,0.0,0.0,"[+0.000, +0.000]",0.0,0.0,0.0,0.0,0.0,0.0
+Mean · all together,contains head,59,0.691,0.693,0.002,0.007,"[-0.004, +0.009]",0.0,0.026,11.864,13.559,0.0,0.0
+Mean · all together,absent,20,0.388,0.388,0.0,0.0,"[+0.000, +0.000]",0.0,0.0,0.0,0.0,0.0,0.0
+Uniform · one at a time,contains head,59,0.691,0.687,-0.004,0.008,"[-0.012, +0.003]",-0.0,0.03,13.559,10.169,0.0,0.0
+Uniform · one at a time,absent,20,0.388,0.388,0.0,0.0,"[+0.000, +0.000]",0.0,0.0,0.0,0.0,0.0,0.0
+Mean · one at a time,contains head,59,0.691,0.691,0.001,0.004,"[-0.003, +0.004]",0.0,0.015,5.085,10.169,0.0,0.0
+Mean · one at a time,absent,20,0.388,0.388,0.0,0.0,"[+0.000, +0.000]",0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,1000 @@
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s prep det n_p aux_s v_trans det n_s prep det n_s quest	aux_s det n_s prep det n_p v_trans det n_s prep det n_s
+det n_s prep det n_p aux_s v_trans det n_p decl	det n_s prep det n_p aux_s v_trans det n_p
+det n_s aux_s v_intrans decl	det n_s aux_s v_intrans
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_s rel det n_s aux_s v_trans
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p rel det n_s aux_s v_trans aux_p v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_intrans
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_trans det n_p decl	det n_s prep det n_s aux_s v_trans det n_p
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_s prep det n_s aux_s v_intrans quest	aux_s det n_s prep det n_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p prep det n_s aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_p prep det n_p aux_p v_trans det n_s quest	aux_p det n_p prep det n_p v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_p quest	aux_s det n_s prep det n_p v_trans det n_p
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_p rel aux_p v_trans det n_p aux_p v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_intrans
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_p rel det n_p aux_p v_trans decl	det n_s prep det n_p aux_s v_trans det n_p rel det n_p aux_p v_trans
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_p rel aux_p v_intrans aux_p v_trans det n_s rel aux_s v_trans det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s rel aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s prep det n_p decl	det n_s aux_s v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s quest	aux_p det n_p prep det n_p v_trans det n_s rel aux_s v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_p quest	aux_s det n_s prep det n_p v_trans det n_p
+det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans decl	det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans
+det n_s prep det n_p aux_s v_trans det n_s prep det n_s quest	aux_s det n_s prep det n_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_intrans quest	aux_s det n_s prep det n_s v_intrans
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_s aux_s v_trans det n_p quest	aux_s det n_s prep det n_s v_trans det n_p
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_p prep det n_s decl	det n_p prep det n_s aux_p v_trans det n_p prep det n_s
+det n_s rel det n_s aux_s v_trans aux_s v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_intrans
+det n_s prep det n_s aux_s v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_s
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_s rel aux_s v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans decl	det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans
+det n_s prep det n_p aux_s v_trans det n_p rel det n_s aux_s v_trans quest	aux_s det n_s prep det n_p v_trans det n_p rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p prep det n_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_s decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p rel det n_s aux_s v_trans aux_p v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_intrans
+det n_p prep det n_p aux_p v_trans det n_p decl	det n_p prep det n_p aux_p v_trans det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel det n_p aux_p v_trans decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel det n_p aux_p v_trans
+det n_s prep det n_s aux_s v_intrans decl	det n_s prep det n_s aux_s v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel aux_p v_trans det n_p decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel aux_p v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_s decl	det n_p prep det n_p aux_p v_trans det n_s
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_p prep det n_s aux_p v_trans det n_p prep det n_p decl	det n_p prep det n_s aux_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_s prep det n_s aux_s v_intrans decl	det n_s prep det n_s aux_s v_intrans
+det n_p rel aux_p v_intrans aux_p v_trans det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p prep det n_s quest	aux_p det n_p v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s prep det n_p decl	det n_s aux_s v_trans det n_s prep det n_p
+det n_s rel det n_s aux_s v_trans aux_s v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_intrans
+det n_p prep det n_p aux_p v_intrans quest	aux_p det n_p prep det n_p v_intrans
+det n_s prep det n_p aux_s v_intrans decl	det n_s prep det n_p aux_s v_intrans
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans decl	det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_s aux_s v_intrans decl	det n_s prep det n_s aux_s v_intrans
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s prep det n_s quest	aux_p det n_p prep det n_s v_trans det n_s prep det n_s
+det n_p rel det n_s aux_s v_trans aux_p v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_intrans
+det n_s rel aux_s v_trans det n_s aux_s v_intrans decl	det n_s rel aux_s v_trans det n_s aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p v_trans det n_p prep det n_p
+det n_s prep det n_p aux_s v_trans det n_p quest	aux_s det n_s prep det n_p v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p rel det n_p aux_p v_trans aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_trans det n_s quest	aux_s det n_s prep det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_p prep det n_s decl	det n_p prep det n_s aux_p v_trans det n_p prep det n_s
+det n_s prep det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_p rel aux_p v_trans det n_s
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_trans det n_p quest	aux_s det n_s prep det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans quest	aux_s det n_s prep det n_s v_trans det n_s rel det n_s aux_s v_trans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_p prep det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans quest	aux_p det n_p prep det n_p v_trans det n_s rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p rel det n_p aux_p v_trans decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p rel det n_p aux_p v_trans
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p decl	det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p
+det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans decl	det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans
+det n_p prep det n_s aux_p v_trans det n_p prep det n_p quest	aux_p det n_p prep det n_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s quest	aux_p det n_p v_trans det n_s rel aux_s v_trans det n_s
+det n_p prep det n_p aux_p v_trans det n_s quest	aux_p det n_p prep det n_p v_trans det n_s
+det n_s rel aux_s v_intrans aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_intrans
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_s quest	aux_s det n_s prep det n_p v_trans det n_s
+det n_p prep det n_s aux_p v_intrans quest	aux_p det n_p prep det n_s v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p prep det n_s quest	aux_p det n_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s prep det n_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_s prep det n_p aux_s v_trans det n_p decl	det n_s prep det n_p aux_s v_trans det n_p
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s prep det n_p aux_s v_intrans decl	det n_s prep det n_p aux_s v_intrans
+det n_p prep det n_s aux_p v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_s decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans decl	det n_s prep det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p rel det n_s aux_s v_trans aux_p v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_intrans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_s rel aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p prep det n_p aux_p v_trans det n_p decl	det n_p prep det n_p aux_p v_trans det n_p
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_s decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_intrans
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_intrans decl	det n_s prep det n_s aux_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_s decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_s
+det n_s prep det n_s aux_s v_intrans decl	det n_s prep det n_s aux_s v_intrans
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans decl	det n_s prep det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s prep det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s prep det n_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_s rel aux_s v_trans det n_s aux_s v_intrans decl	det n_s rel aux_s v_trans det n_s aux_s v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_s prep det n_s aux_s v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s decl	det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans decl	det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s rel aux_s v_trans det n_p decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s rel aux_s v_trans det n_p
+det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_intrans quest	aux_s det n_s prep det n_s v_intrans
+det n_s prep det n_s aux_s v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans quest	aux_p det n_p v_trans det n_s rel det n_p aux_p v_trans
+det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s decl	det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p rel aux_p v_intrans aux_p v_trans det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_trans det n_p quest	aux_p det n_p prep det n_s v_trans det n_s rel aux_s v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_s prep det n_p aux_s v_trans det n_p prep det n_s quest	aux_s det n_s prep det n_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p prep det n_p aux_p v_intrans quest	aux_p det n_p prep det n_p v_intrans
+det n_s prep det n_s aux_s v_trans det n_p prep det n_s decl	det n_s prep det n_s aux_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_p rel det n_s aux_s v_trans aux_p v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_intrans
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans decl	det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_s quest	aux_p det n_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p quest	aux_p det n_p prep det n_p v_trans det n_s rel aux_s v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p prep det n_s aux_p v_intrans quest	aux_p det n_p prep det n_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p
+det n_s rel aux_s v_intrans aux_s v_trans det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p quest	aux_p det n_p v_trans det n_s rel aux_s v_trans det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_p rel aux_p v_trans det n_s decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p rel aux_p v_trans det n_s
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_p rel det n_p aux_p v_trans quest	aux_p det n_p prep det n_s v_trans det n_p rel det n_p aux_p v_trans
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_s prep det n_s decl	det n_s prep det n_s aux_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans decl	det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans decl	det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s rel aux_s v_trans det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s rel aux_s v_trans det n_p
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_s prep det n_p aux_s v_trans det n_s decl	det n_s prep det n_p aux_s v_trans det n_s
+det n_p rel det n_p aux_p v_trans aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_intrans
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_p rel det n_s aux_s v_trans
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p rel aux_p v_intrans aux_p v_trans det n_s decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_trans det n_p quest	aux_s det n_s prep det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p rel aux_p v_trans det n_s aux_p v_intrans decl	det n_p rel aux_p v_trans det n_s aux_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s prep det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s prep det n_s v_trans det n_s prep det n_p
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s prep det n_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_s prep det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans quest	aux_s det n_s prep det n_s v_trans det n_p rel det n_p aux_p v_trans
+det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans decl	det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans
+det n_p rel aux_p v_intrans aux_p v_intrans decl	det n_p rel aux_p v_intrans aux_p v_intrans
+det n_p prep det n_p aux_p v_trans det n_p prep det n_s quest	aux_p det n_p prep det n_p v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s prep det n_p decl	det n_s aux_s v_trans det n_s prep det n_p
+det n_s prep det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s prep det n_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p rel aux_p v_intrans aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_intrans
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s rel aux_s v_intrans aux_s v_trans det n_s rel det n_s aux_s v_trans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_s rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s prep det n_p quest	aux_p det n_p prep det n_s v_trans det n_s prep det n_p
+det n_p rel aux_p v_trans det n_p aux_p v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p
+det n_p prep det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p prep det n_p v_trans det n_s prep det n_s
+det n_s prep det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s prep det n_s v_trans det n_p prep det n_s
+det n_p prep det n_s aux_p v_trans det n_p prep det n_p quest	aux_p det n_p prep det n_s v_trans det n_p prep det n_p
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans decl	det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans
+det n_p rel aux_p v_intrans aux_p v_trans det n_s rel det n_s aux_s v_trans decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s rel det n_s aux_s v_trans
+det n_s prep det n_p aux_s v_trans det n_p rel det n_p aux_p v_trans quest	aux_s det n_s prep det n_p v_trans det n_p rel det n_p aux_p v_trans
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_s decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_s rel aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_p aux_s v_trans det n_p decl	det n_s prep det n_p aux_s v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_s decl	det n_p prep det n_p aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_p prep det n_s quest	aux_p det n_p prep det n_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_s rel det n_s aux_s v_trans
+det n_p prep det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p prep det n_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_s prep det n_s decl	det n_p prep det n_p aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_s rel aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_p rel det n_s aux_s v_trans quest	aux_p det n_p prep det n_s v_trans det n_p rel det n_s aux_s v_trans
+det n_p rel det n_p aux_p v_trans aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s rel aux_s v_intrans aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p decl	det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p
+det n_s prep det n_p aux_s v_trans det n_p prep det n_s decl	det n_s prep det n_p aux_s v_trans det n_p prep det n_s
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p
+det n_p prep det n_p aux_p v_trans det n_s decl	det n_p prep det n_p aux_p v_trans det n_s
+det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_p rel det n_s aux_s v_trans aux_p v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_intrans
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s
+det n_s prep det n_s aux_s v_trans det n_s decl	det n_s prep det n_s aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_p prep det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p prep det n_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel aux_p v_trans det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel aux_p v_trans det n_p
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s rel aux_s v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_s prep det n_s aux_s v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_s
+det n_s prep det n_s aux_s v_intrans quest	aux_s det n_s prep det n_s v_intrans
+det n_p prep det n_s aux_p v_trans det n_s prep det n_s quest	aux_p det n_p prep det n_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_p decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s rel aux_s v_trans det n_s decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s rel aux_s v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p prep det n_s aux_p v_intrans decl	det n_p prep det n_s aux_p v_intrans
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s rel aux_s v_trans det n_s decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s rel aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_p rel aux_p v_intrans aux_p v_trans det n_s decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s
+det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s prep det n_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p decl	det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s prep det n_s aux_s v_intrans quest	aux_s det n_s prep det n_s v_intrans
+det n_s rel aux_s v_intrans aux_s v_trans det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s
+det n_p prep det n_p aux_p v_intrans quest	aux_p det n_p prep det n_p v_intrans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_p rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s prep det n_s v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_s quest	aux_p det n_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_intrans decl	det n_s rel det n_p aux_p v_trans aux_s v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_p rel aux_p v_intrans aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p rel aux_p v_intrans
+det n_s rel aux_s v_intrans aux_s v_trans det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s rel det n_s aux_s v_trans quest	aux_p det n_p prep det n_s v_trans det n_s rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s prep det n_p aux_s v_trans det n_s prep det n_s decl	det n_s prep det n_p aux_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans quest	aux_p det n_p v_trans det n_p rel det n_p aux_p v_trans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_trans det n_s decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_trans det n_s
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_s aux_s v_intrans decl	det n_s prep det n_s aux_s v_intrans
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_s prep det n_p aux_s v_intrans decl	det n_s prep det n_p aux_s v_intrans
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s prep det n_p v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_s aux_p v_intrans decl	det n_p prep det n_s aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_s decl	det n_s prep det n_p aux_s v_trans det n_s
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s aux_s v_trans det n_s prep det n_p decl	det n_s aux_s v_trans det n_s prep det n_p
+det n_s rel aux_s v_trans det n_p aux_s v_intrans decl	det n_s rel aux_s v_trans det n_p aux_s v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s decl	det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_s aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s prep det n_s v_trans det n_p prep det n_s
+det n_s prep det n_p aux_s v_trans det n_s quest	aux_s det n_s prep det n_p v_trans det n_s
+det n_p aux_p v_intrans decl	det n_p aux_p v_intrans
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans decl	det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s prep det n_s aux_s v_trans det n_p decl	det n_s prep det n_s aux_s v_trans det n_p
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_s prep det n_p aux_s v_trans det n_s prep det n_p decl	det n_s prep det n_p aux_s v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p v_trans det n_p prep det n_p
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans decl	det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p decl	det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans quest	aux_s det n_s v_trans det n_p rel det n_p aux_p v_trans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p quest	aux_s det n_s prep det n_s v_trans det n_s rel aux_s v_trans det n_p
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_p rel aux_p v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_p prep det n_p decl	det n_s prep det n_p aux_s v_trans det n_p prep det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s
+det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s rel aux_s v_intrans aux_s v_trans det n_p rel det n_s aux_s v_trans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans decl	det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans quest	aux_s det n_s v_trans det n_s rel det n_p aux_p v_trans
+det n_p prep det n_s aux_p v_intrans quest	aux_p det n_p prep det n_s v_intrans
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans decl	det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s prep det n_s quest	aux_p det n_p prep det n_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans quest	aux_p det n_p v_trans det n_p rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_s decl	det n_s prep det n_p aux_s v_trans det n_s
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s decl	det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_p prep det n_s aux_p v_trans det n_p decl	det n_p prep det n_s aux_p v_trans det n_p
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_s rel det n_s aux_s v_trans aux_s v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_intrans
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p rel aux_p v_trans det n_p aux_p v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_intrans
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans quest	aux_p det n_p v_trans det n_s rel det n_s aux_s v_trans
+det n_s prep det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s prep det n_s v_trans det n_s prep det n_s
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_p prep det n_s quest	aux_p det n_p prep det n_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s quest	aux_p det n_p v_trans det n_s rel aux_s v_trans det n_s
+det n_s rel det n_p aux_p v_trans aux_s v_intrans decl	det n_s rel det n_p aux_p v_trans aux_s v_intrans
+det n_s prep det n_s aux_s v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_s
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_p aux_p v_trans det n_p prep det n_s quest	aux_p det n_p v_trans det n_p prep det n_s
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_trans det n_s prep det n_s decl	det n_s prep det n_s aux_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_p prep det n_s aux_p v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_s
+det n_p prep det n_p aux_p v_trans det n_s prep det n_p decl	det n_p prep det n_p aux_p v_trans det n_s prep det n_p
+det n_p prep det n_s aux_p v_intrans decl	det n_p prep det n_s aux_p v_intrans
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_s prep det n_p aux_s v_trans det n_s prep det n_p quest	aux_s det n_s prep det n_p v_trans det n_s prep det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p
+det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_trans det n_s quest	aux_s det n_s prep det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans decl	det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p prep det n_s v_trans det n_s rel aux_s v_intrans
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p decl	det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_p prep det n_p aux_p v_trans det n_s prep det n_p decl	det n_p prep det n_p aux_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_s prep det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s prep det n_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_s prep det n_p quest	aux_s det n_s prep det n_p v_trans det n_s prep det n_p
+det n_s aux_s v_intrans quest	aux_s det n_s v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel det n_s aux_s v_trans decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s prep det n_p aux_s v_trans det n_s quest	aux_s det n_s prep det n_p v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s prep det n_s quest	aux_p det n_p prep det n_s v_trans det n_s prep det n_s
+det n_s prep det n_s aux_s v_trans det n_p decl	det n_s prep det n_s aux_s v_trans det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_intrans decl	det n_s rel det n_p aux_p v_trans aux_s v_intrans
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s prep det n_p decl	det n_p prep det n_s aux_p v_trans det n_s prep det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_p prep det n_s aux_p v_trans det n_p decl	det n_p prep det n_s aux_p v_trans det n_p
+det n_s rel aux_s v_intrans aux_s v_trans det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s prep det n_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s prep det n_s decl	det n_p prep det n_s aux_p v_trans det n_s prep det n_s
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_p decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_s aux_s v_intrans quest	aux_s det n_s prep det n_s v_intrans
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_s prep det n_p aux_s v_intrans decl	det n_s prep det n_p aux_s v_intrans
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_p prep det n_s aux_p v_trans det n_p prep det n_p decl	det n_p prep det n_s aux_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_trans det n_s decl	det n_s prep det n_s aux_s v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_trans det n_p decl	det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_trans det n_p
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans quest	aux_p det n_p v_trans det n_p rel det n_p aux_p v_trans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_p aux_s v_trans det n_p quest	aux_s det n_s prep det n_p v_trans det n_p
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_p prep det n_s aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_s quest	aux_s det n_s prep det n_p v_trans det n_s
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p
+det n_p prep det n_p aux_p v_trans det n_s decl	det n_p prep det n_p aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_p rel aux_p v_trans det n_s
+det n_s prep det n_s aux_s v_trans det n_p decl	det n_s prep det n_s aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_s rel aux_s v_trans det n_p
+det n_s prep det n_p aux_s v_intrans decl	det n_s prep det n_p aux_s v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p rel aux_p v_trans det n_p decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p rel aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s rel det n_s aux_s v_trans decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s rel det n_s aux_s v_trans
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s decl	det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_p quest	aux_p det n_p prep det n_s v_trans det n_p
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_p rel det n_p aux_p v_trans aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_intrans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p prep det n_p aux_p v_trans det n_s decl	det n_p prep det n_p aux_p v_trans det n_s
+det n_s rel aux_s v_intrans aux_s v_trans det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_p aux_p v_trans det n_s prep det n_s decl	det n_p prep det n_p aux_p v_trans det n_s prep det n_s
+det n_s prep det n_p aux_s v_trans det n_s quest	aux_s det n_s prep det n_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p prep det n_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_s prep det n_s aux_s v_intrans quest	aux_s det n_s prep det n_s v_intrans
+det n_s prep det n_s aux_s v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_s
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p prep det n_s aux_p v_intrans decl	det n_p prep det n_s aux_p v_intrans
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p
+det n_s rel aux_s v_intrans aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p prep det n_s aux_p v_intrans quest	aux_p det n_p prep det n_s v_intrans
+det n_s prep det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans quest	aux_s det n_s prep det n_s v_trans det n_s rel det n_p aux_p v_trans
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s
+det n_s rel aux_s v_intrans aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_p aux_p v_intrans quest	aux_p det n_p prep det n_p v_intrans
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans decl	det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s prep det n_p decl	det n_s aux_s v_trans det n_s prep det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_trans det n_s decl	det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_trans det n_s
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans quest	aux_s det n_s v_trans det n_p rel det n_p aux_p v_trans
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s prep det n_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans decl	det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_s prep det n_s aux_s v_trans det n_p decl	det n_s prep det n_s aux_s v_trans det n_p
+det n_p prep det n_p aux_p v_intrans quest	aux_p det n_p prep det n_p v_intrans
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel aux_p v_trans det n_s decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p rel det n_s aux_s v_trans aux_p v_intrans decl	det n_p rel det n_s aux_s v_trans aux_p v_intrans
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans quest	aux_s det n_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s prep det n_s v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s decl	det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_s prep det n_s aux_s v_trans det n_s decl	det n_s prep det n_s aux_s v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s prep det n_s quest	aux_p det n_p prep det n_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p rel aux_p v_trans det n_p aux_p v_intrans decl	det n_p rel aux_p v_trans det n_p aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_s prep det n_s decl	det n_s prep det n_p aux_s v_trans det n_s prep det n_s
+det n_p prep det n_p aux_p v_intrans quest	aux_p det n_p prep det n_p v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_s
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p quest	aux_p det n_p prep det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p rel aux_p v_trans det n_p decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p rel aux_p v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s prep det n_s v_trans det n_p rel aux_p v_intrans
+det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p prep det n_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans decl	det n_s prep det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p quest	aux_p det n_p v_trans det n_s rel aux_s v_trans det n_p
+det n_s prep det n_p aux_s v_trans det n_s quest	aux_s det n_s prep det n_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans quest	aux_p det n_p v_trans det n_s rel det n_s aux_s v_trans
+det n_p rel aux_p v_intrans aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans decl	det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans
+det n_s prep det n_s aux_s v_trans det n_s decl	det n_s prep det n_s aux_s v_trans det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s prep det n_p decl	det n_s aux_s v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_s rel aux_s v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans decl	det n_p prep det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans
+det n_p rel aux_p v_intrans aux_p v_intrans decl	det n_p rel aux_p v_intrans aux_p v_intrans
+det n_p rel aux_p v_intrans aux_p v_intrans decl	det n_p rel aux_p v_intrans aux_p v_intrans
+det n_p prep det n_s aux_p v_trans det n_p prep det n_p quest	aux_p det n_p prep det n_s v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p prep det n_p v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_s prep det n_p quest	aux_s det n_s prep det n_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans quest	aux_p det n_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel aux_p v_trans det n_s decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel aux_p v_trans det n_s
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_s aux_s v_trans det n_s decl	det n_s prep det n_s aux_s v_trans det n_s
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_s rel aux_s v_trans det n_p aux_s v_intrans decl	det n_s rel aux_s v_trans det n_p aux_s v_intrans
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_intrans
+det n_p prep det n_s aux_p v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p prep det n_p quest	aux_s det n_s v_trans det n_p prep det n_p
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_trans det n_s
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s decl	det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_p prep det n_s aux_p v_intrans decl	det n_p prep det n_s aux_p v_intrans
+det n_p rel aux_p v_trans det n_s aux_p v_intrans decl	det n_p rel aux_p v_trans det n_s aux_p v_intrans
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel det n_p aux_p v_trans decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p rel det n_p aux_p v_trans
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans quest	aux_p det n_p v_trans det n_s rel det n_s aux_s v_trans
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel aux_p v_intrans
+det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p
+det n_s prep det n_s aux_s v_trans det n_s prep det n_p decl	det n_s prep det n_s aux_s v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p quest	aux_s det n_s v_trans det n_p rel aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans quest	aux_p det n_p v_trans det n_s rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p prep det n_s aux_p v_trans det n_s prep det n_s quest	aux_p det n_p prep det n_s v_trans det n_s prep det n_s
+det n_s aux_s v_intrans quest	aux_s det n_s v_intrans
+det n_p prep det n_s aux_p v_trans det n_p prep det n_p quest	aux_p det n_p prep det n_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_trans det n_p quest	aux_s det n_s prep det n_p v_trans det n_s rel aux_s v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_p quest	aux_s det n_s prep det n_s v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans decl	det n_s prep det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_s prep det n_p quest	aux_s det n_s v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p quest	aux_s det n_s v_trans det n_p rel aux_p v_trans det n_p
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_p prep det n_p aux_p v_intrans decl	det n_p prep det n_p aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_p prep det n_s decl	det n_s prep det n_p aux_s v_trans det n_p prep det n_s
+det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_trans det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_trans det n_p
+det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_trans det n_p decl	det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s rel aux_s v_trans det n_p
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s aux_s v_trans det n_s prep det n_p decl	det n_s aux_s v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans quest	aux_p det n_p v_trans det n_p rel det n_p aux_p v_trans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_trans det n_p decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_trans det n_p
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s decl	det n_s aux_s v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_intrans quest	aux_s det n_s prep det n_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s rel aux_s v_trans det n_s
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p rel aux_p v_trans det n_s aux_p v_intrans decl	det n_p rel aux_p v_trans det n_s aux_p v_intrans
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel aux_p v_trans det n_s decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel aux_p v_trans det n_s
+det n_s aux_s v_trans det n_p prep det n_s decl	det n_s aux_s v_trans det n_p prep det n_s
+det n_s rel det n_s aux_s v_trans aux_s v_intrans decl	det n_s rel det n_s aux_s v_trans aux_s v_intrans
+det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans decl	det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p prep det n_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p
+det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel aux_s v_intrans aux_s v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p quest	aux_p det n_p prep det n_p v_trans det n_p rel aux_p v_trans det n_p
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s prep det n_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_p aux_s v_trans det n_p quest	aux_s det n_s prep det n_p v_trans det n_p
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans quest	aux_s det n_s v_trans det n_p rel det n_p aux_p v_trans
+det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s decl	det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s prep det n_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_p aux_s v_trans det n_p decl	det n_s prep det n_p aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_p quest	aux_p det n_p prep det n_s v_trans det n_p
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s aux_s v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_p decl	det n_s prep det n_p aux_s v_trans det n_p
+det n_s rel aux_s v_intrans aux_s v_intrans decl	det n_s rel aux_s v_intrans aux_s v_intrans
+det n_s rel det n_p aux_p v_trans aux_s v_intrans decl	det n_s rel det n_p aux_p v_trans aux_s v_intrans
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p prep det n_s aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s decl	det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_p decl	det n_p aux_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_p quest	aux_s det n_s prep det n_s v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_p quest	aux_p det n_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans quest	aux_p det n_p v_trans det n_s rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans quest	aux_p det n_p v_trans det n_p rel det n_p aux_p v_trans
+det n_s aux_s v_trans det n_p decl	det n_s aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s rel det n_s aux_s v_trans quest	aux_p det n_p prep det n_s v_trans det n_s rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p rel aux_p v_intrans aux_p v_trans det n_p rel aux_p v_trans det n_s decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p rel aux_p v_trans det n_s
+det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_s aux_p v_trans det n_p quest	aux_p det n_p prep det n_s v_trans det n_p
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_s prep det n_s quest	aux_s det n_s v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans decl	det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans
+det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s v_trans det n_s rel aux_s v_intrans
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans quest	aux_s det n_s v_trans det n_s rel det n_p aux_p v_trans
+det n_p aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p aux_p v_trans det n_p rel aux_p v_intrans
+det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans decl	det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p prep det n_s aux_p v_intrans quest	aux_p det n_p prep det n_s v_intrans
+det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_intrans quest	aux_s det n_s prep det n_s v_trans det n_s rel aux_s v_intrans
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s
+det n_p prep det n_s aux_p v_intrans decl	det n_p prep det n_s aux_p v_intrans
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_s prep det n_s aux_s v_trans det n_p decl	det n_s prep det n_s aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_p decl	det n_p prep det n_s aux_p v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p rel aux_p v_intrans aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p rel aux_p v_intrans aux_p v_trans det n_s rel aux_s v_intrans
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p quest	aux_p det n_p v_trans det n_p
+det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_trans det n_s decl	det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s decl	det n_p prep det n_s aux_p v_trans det n_s
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p
+det n_p prep det n_s aux_p v_trans det n_p prep det n_p quest	aux_p det n_p prep det n_s v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans quest	aux_p det n_p v_trans det n_p rel det n_p aux_p v_trans
+det n_p prep det n_s aux_p v_trans det n_s rel det n_p aux_p v_trans decl	det n_p prep det n_s aux_p v_trans det n_s rel det n_p aux_p v_trans
+det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_s aux_s v_trans det n_p prep det n_p decl	det n_s aux_s v_trans det n_p prep det n_p
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p
+det n_p aux_p v_trans det n_s prep det n_s decl	det n_p aux_p v_trans det n_s prep det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p rel aux_p v_intrans
+det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s decl	det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s
+det n_p aux_p v_trans det n_p decl	det n_p aux_p v_trans det n_p
+det n_p aux_p v_trans det n_s decl	det n_p aux_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans
+det n_s prep det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s quest	aux_s det n_s prep det n_s v_trans det n_p rel aux_p v_trans det n_s
+det n_s aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s aux_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans decl	det n_p prep det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans
+det n_p aux_p v_trans det n_s prep det n_s quest	aux_p det n_p v_trans det n_s prep det n_s
+det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans decl	det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans
+det n_p prep det n_s aux_p v_intrans decl	det n_p prep det n_s aux_p v_intrans
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s quest	aux_p det n_p v_trans det n_s rel aux_s v_trans det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s decl	det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s
+det n_s aux_s v_trans det n_p quest	aux_s det n_s v_trans det n_p
+det n_s aux_s v_trans det n_s prep det n_s decl	det n_s aux_s v_trans det n_s prep det n_s
+det n_s prep det n_p aux_s v_trans det n_p prep det n_p decl	det n_s prep det n_p aux_s v_trans det n_p prep det n_p
+det n_s prep det n_s aux_s v_trans det n_p quest	aux_s det n_s prep det n_s v_trans det n_p
+det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p v_trans det n_p rel aux_p v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_p prep det n_s aux_p v_trans det n_s quest	aux_p det n_p prep det n_s v_trans det n_s
+det n_s prep det n_p aux_s v_intrans quest	aux_s det n_s prep det n_p v_intrans
+det n_s aux_s v_trans det n_s quest	aux_s det n_s v_trans det n_s
+det n_p rel aux_p v_intrans aux_p v_trans det n_p rel aux_p v_intrans decl	det n_p rel aux_p v_intrans aux_p v_trans det n_p rel aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_p decl	det n_s prep det n_p aux_s v_trans det n_p
+det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s rel aux_s v_trans det n_p decl	det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s rel aux_s v_trans det n_p
+det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_intrans decl	det n_p aux_p v_intrans
+det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_intrans
+det n_p prep det n_s aux_p v_trans det n_s prep det n_p quest	aux_p det n_p prep det n_s v_trans det n_s prep det n_p
+det n_s aux_s v_trans det n_p prep det n_s quest	aux_s det n_s v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s prep det n_p decl	det n_p aux_p v_trans det n_s prep det n_p
+det n_p aux_p v_trans det n_s prep det n_p quest	aux_p det n_p v_trans det n_s prep det n_p
+det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel aux_p v_intrans decl	det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p rel aux_p v_intrans
+det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans quest	aux_p det n_p prep det n_p v_trans det n_p rel aux_p v_intrans
+det n_p prep det n_s aux_p v_trans det n_p quest	aux_p det n_p prep det n_s v_trans det n_p
+det n_p aux_p v_trans det n_p prep det n_s decl	det n_p aux_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans decl	det n_p aux_p v_trans det n_s rel aux_s v_intrans
+det n_p aux_p v_trans det n_s quest	aux_p det n_p v_trans det n_s
+det n_s rel aux_s v_trans det n_p aux_s v_intrans decl	det n_s rel aux_s v_trans det n_p aux_s v_intrans
+det n_p aux_p v_trans det n_p prep det n_s quest	aux_p det n_p v_trans det n_p prep det n_s
+det n_p aux_p v_trans det n_s rel aux_s v_intrans quest	aux_p det n_p v_trans det n_s rel aux_s v_intrans
