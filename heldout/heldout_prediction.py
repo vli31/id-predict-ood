@@ -10,7 +10,8 @@ and the FIRST-SYMBOL cluster (highest agreement with the first-symbol heuristic)
         EOS attention weight; EOS attention to itself; self-attention averaged over all positions.  Logistic regression (and random forest).
   (iii) baseline: logistic regression on hyperparameters alone (depth, width, weight decay).
 Evaluation: 50 random splits (150 train / 120 test) and leave-one-(depth, weight decay)-setting-out (six of nine settings contain
-both classes and can be scored).  Question formation: target = the hierarchical cluster (k-means, k=2, on P(hierarchical) over the OOD questions); same rule and the same five
+both classes and can be scored).  Question formation: target = the HIERARCHICAL region of Fig. 2b, i.e. outside the LINEAR cluster (k-means, k=3, on P(hierarchical) over the OOD
+questions); same rule and the same five
 statistics at the 'quest' position, 5-fold CV x 20 over the 79 models.
 
 Inputs : heldout/features/cp5.npz (from extract_features.py), heldout/features/qf_cp300000.npz (from extract_qf_features.py, optional),
@@ -85,8 +86,9 @@ if os.path.exists(qf_path):
     mem = mem.loc[[r + "__checkpoint_300000" for r in Q["runs"]]]
     ph = pd.read_csv(f"{ROOT}/question_formation_data/qf_p_hier_by_model_checkpoint_300000.csv")
     Pq = ph[[r + "__checkpoint_300000" for r in Q["runs"]]].values.T                                       # P(hierarchical) on the 10000 OOD questions
-    labq = KMeans(2, n_init=50, random_state=0).fit_predict(Pq); hier = int(np.argmax([Pq[labq == c].mean() for c in range(2)]))
-    yq = (labq == hier).astype(int); nq = len(yq); print(f"QF clusters: {[int((labq == c).sum()) for c in range(2)]}; hierarchical cluster n={yq.sum()}")
+    labq = KMeans(3, n_init=50, random_state=0).fit_predict(Pq); linear = int(np.argmin([Pq[labq == c].mean() for c in range(3)]))
+    yq = (labq != linear).astype(int); nq = len(yq)                                                     # HIERARCHICAL region of Fig. 2b = outside the LINEAR cluster
+    print(f"QF clusters: {[int((labq == c).sum()) for c in range(3)]}, mean P(hier) {[round(float(Pq[labq == c].mean()), 2) for c in range(3)]}; LINEAR={linear}; hierarchical region n={yq.sum()}")
     qhand_names = list(Q["hand_names"]); qhand = Q["hand"].astype(float)
     q_rule = qhand[:, [i for i, nm in enumerate(qhand_names) if nm.endswith("matrix_prop_met") and int(nm[1]) <= 3]].max(1)   # first three layers, as in the paper
     qstats = [str(x) for x in Q["headraw_names"]]; qraw = Q["headraw"].astype(float)                          # (79, 6 layers, 8 heads, stats)

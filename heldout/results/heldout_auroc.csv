@@ -7,6 +7,6 @@ Dyck-1,"leave one (depth, weight decay) setting out",ID hierarchical-head rule,0
 Dyck-1,"leave one (depth, weight decay) setting out",Five attention statistics (logistic regression),0.6216991950453344,0.2514090421882155,6
 Dyck-1,"leave one (depth, weight decay) setting out",Five attention statistics (random forest),0.750966034839723,0.18821955125575543,6
 Dyck-1,"leave one (depth, weight decay) setting out",Hyperparameters alone (logistic regression),0.5399978582137502,0.19565388838959846,6
-question formation,"fixed rule, all 79 models",Main Auxiliary-Detecting head (first three layers),0.7492743105950652,,1
-question formation,5-fold CV (x20),Five attention statistics (logistic regression),0.7173636363636365,0.12405637745877542,100
-question formation,5-fold CV (x20),Five attention statistics (random forest),0.6652818181818182,0.14157160494070226,100
+question formation,"fixed rule, all 79 models",Main Auxiliary-Detecting head (first three layers),0.7633333333333333,,1
+question formation,5-fold CV (x20),Five attention statistics (logistic regression),0.7463000000000001,0.11229613746410147,100
+question formation,5-fold CV (x20),Five attention statistics (random forest),0.720090909090909,0.12382268006375811,100
