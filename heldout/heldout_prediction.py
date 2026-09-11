@@ -1,8 +1,9 @@
 """
 Held-out prediction of OOD rule choice from ID-only information (Appendix "Held-out evaluation", Figure "heldout_prediction").
 
-Target: does a held-out model belong to the NESTED cluster?  Clusters are k-means (k=3) on each model's OOD output probabilities, the same
-vectors as the paper's t-SNE; the NESTED cluster is the one with the highest mean OOD accuracy.  Predictors see ID data only:
+Target: does a held-out model lie in the NESTED region of the paper's Fig. 2a?  Clusters are k-means (k=4) on each model's OOD output
+probabilities, the same vectors as the t-SNE; the NESTED region is everything outside the EQUAL-COUNT cluster (lowest mean OOD accuracy)
+and the FIRST-SYMBOL cluster (highest agreement with the first-symbol heuristic).  Predictors see ID data only:
   (i)   ID hierarchical-head rule: any head, any layer, tracks violations on >= 80% of relevant ID sequences (score = max over heads);
   (ii)  five nesting-agnostic attention statistics, each summarized by its maximum, mean and minimum over all heads, measured on the 1000 ID
         test strings: centre of mass of the EOS attention along the string; EOS attention mass on the last tenth of the string; largest
@@ -33,9 +34,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); HERE = f"{RO
 hp = pd.read_csv(f"{ROOT}/data/transformer_head_properties.csv")
 F = np.load(f"{HERE}/features/cp5.npz", allow_pickle=True); assert list(F["ids"]) == hp.id.tolist()
 acc = 1 - (F["ood_probs"] >= 0.5).mean(1); assert np.allclose(acc, hp.cp5_ood_acc.values, atol=1e-3)
-lab = KMeans(3, n_init=50, random_state=0).fit_predict(F["ood_probs"].astype(float))                  # clusters in OOD-output space (paper Sec. 3.1)
-nested = max(range(3), key=lambda c: acc[lab == c].mean()); y = (lab == nested).astype(int); n = len(y)
-print(f"Dyck-1 clusters: {[int((lab == c).sum()) for c in range(3)]} models, mean OOD acc {[round(float(acc[lab == c].mean()), 2) for c in range(3)]}; NESTED cluster = {nested} (n={y.sum()})")
+ood_strings = pd.read_csv(f"{ROOT}/data/model_preds/ood_data_preds.csv", usecols=["string"]).string
+first_symbol = (((F["ood_probs"] >= 0.5) == (~ood_strings.str.startswith(")").values)[None, :]).mean(1))   # agreement with the FIRST-SYMBOL heuristic
+lab = KMeans(4, n_init=50, random_state=0).fit_predict(F["ood_probs"].astype(float))                  # clusters in OOD-output space (paper Fig. 2a)
+eq_count = min(range(4), key=lambda c: acc[lab == c].mean()); first_sym = max(range(4), key=lambda c: first_symbol[lab == c].mean())
+y = (~np.isin(lab, [eq_count, first_sym])).astype(int); n = len(y)                                  # NESTED region = outside the EQUAL-COUNT and FIRST-SYMBOL clusters
+print(f"Dyck-1 clusters: {[int((lab == c).sum()) for c in range(4)]} models, mean OOD acc {[round(float(acc[lab == c].mean()), 2) for c in range(4)]}; EQUAL-COUNT={eq_count}, FIRST-SYMBOL={first_sym}; NESTED region n={y.sum()}")
 hand_names = list(F["hand_names"]); hand = F["hand"].astype(float)
 rule_score = hand[:, [i for i, nm in enumerate(hand_names) if nm.endswith("ambi")]].max(1)          # (i) max ID hierarchical-head score
 headraw = F["headraw"].astype(float); stats = [str(x) for x in F["headraw_names"]]                # (n, 3 layers, 4 heads, 24), NaN = head absent

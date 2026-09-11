@@ -1,12 +1,12 @@
 setting,scheme,predictor,auroc_mean,auroc_sd,n_folds
-Dyck-1,random 150/120 splits (x50),ID hierarchical-head rule,0.8868636877828053,0.01955523270310713,50
-Dyck-1,random 150/120 splits (x50),Five attention statistics (logistic regression),0.8199179864253394,0.03053943525256874,50
-Dyck-1,random 150/120 splits (x50),Five attention statistics (random forest),0.8891317873303167,0.025978145030050828,50
-Dyck-1,random 150/120 splits (x50),Hyperparameters alone (logistic regression),0.9047511312217195,0.024583913506585,50
-Dyck-1,"leave one (depth, weight decay) setting out",ID hierarchical-head rule,0.7989486025670237,0.1932224638252687,5
-Dyck-1,"leave one (depth, weight decay) setting out",Five attention statistics (logistic regression),0.638083213083213,0.3280843269399649,5
-Dyck-1,"leave one (depth, weight decay) setting out",Five attention statistics (random forest),0.7953716361611098,0.2414631266009241,5
-Dyck-1,"leave one (depth, weight decay) setting out",Hyperparameters alone (logistic regression),0.5172171546944686,0.18768446819311116,5
+Dyck-1,random 150/120 splits (x50),ID hierarchical-head rule,0.8504944586530264,0.028324370915026667,50
+Dyck-1,random 150/120 splits (x50),Five attention statistics (logistic regression),0.8425745950554134,0.02621184484411476,50
+Dyck-1,random 150/120 splits (x50),Five attention statistics (random forest),0.8807019039499859,0.022916545804339997,50
+Dyck-1,random 150/120 splits (x50),Hyperparameters alone (logistic regression),0.9533844842284741,0.017690213613187254,50
+Dyck-1,"leave one (depth, weight decay) setting out",ID hierarchical-head rule,0.7349294102948525,0.23353892620448677,6
+Dyck-1,"leave one (depth, weight decay) setting out",Five attention statistics (logistic regression),0.6216991950453344,0.2514090421882155,6
+Dyck-1,"leave one (depth, weight decay) setting out",Five attention statistics (random forest),0.750966034839723,0.18821955125575543,6
+Dyck-1,"leave one (depth, weight decay) setting out",Hyperparameters alone (logistic regression),0.5399978582137502,0.19565388838959846,6
 question formation,"fixed rule, all 79 models",Main Auxiliary-Detecting head (first three layers),0.7492743105950652,,1
 question formation,5-fold CV (x20),Five attention statistics (logistic regression),0.7173636363636365,0.12405637745877542,100
 question formation,5-fold CV (x20),Five attention statistics (random forest),0.6652818181818182,0.14157160494070226,100
