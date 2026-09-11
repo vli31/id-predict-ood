@@ -1,1 +1,8 @@
 archive
+review_experiments/
+__pycache__/
+.venv/
+*.npz
+*.pth
+*.log
+!data/model_weights/**/*.pt

@@ -28,6 +28,8 @@ The `execution` and `utils` folders create the Transformer (and LSTM) models to 
 - The other files help with these primary functions, and they set up dataframes for downstream analysis and plotting.
 To get the question formation models, please use [sunnytqin/hier_gen](https://github.com/sunnytqin/hier_gen/tree/main).
 
+The `heldout` folder contains the code for the held-out prediction analysis (Appendix "Held-out evaluation"): fitting the ID hierarchical-head rule, nesting-agnostic attention statistics, and a hyperparameter-only baseline on some models and scoring them on models they never saw, in both settings. See `heldout/README.md`.
+
 The `question_formation_data` folder contains the data for our second setting, English question formation, which mirrors the Dyck-1 experiments above:
 - `question_formation/`: the ID train and ID/OOD test data (`question.train`, `question.val`, `question.test`), along with the corresponding part-of-speech templates (`question.val.type`, `question.test.type`)
 - `qf_p_hier_by_model_checkpoint_300000.csv`: each model's predicted `P(hierarchical auxiliary)` on every OOD test example at the 300K-datapoint checkpoint
