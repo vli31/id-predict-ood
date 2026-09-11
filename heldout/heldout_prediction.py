@@ -3,13 +3,12 @@ Held-out prediction of OOD rule choice from ID-only information (Appendix "Held-
 
 Target: does a held-out model follow the NESTED rule OOD (OOD accuracy >= 0.5)?  Predictors see ID data only:
   (i)   ID hierarchical-head rule: any head, any layer, tracks violations on >= 80% of relevant ID sequences (score = max over heads);
-  (ii)  nesting-agnostic attention statistics: 24 statistics per head of the EOS attention on the 1000 ID test strings that never
-        reference nesting (entropy, attention to BOS/EOS/first/last token, centre of mass, largest weight, 10-bin positional profile,
-        entropy variability, all-query entropy/self/previous/BOS), pooled max/mean/min over all heads and over the final layer's heads,
-        random forest;
+  (ii)  five nesting-agnostic attention statistics, each summarized by its maximum, mean and minimum over all heads, measured on the 1000 ID
+        test strings: centre of mass of the EOS attention along the string; EOS attention mass on the last tenth of the string; largest
+        EOS attention weight; EOS attention to itself; self-attention averaged over all positions.  Logistic regression (and random forest).
   (iii) baseline: logistic regression on hyperparameters alone (depth, width, weight decay).
 Evaluation: 50 random splits (150 train / 120 test) and leave-one-(depth, weight decay)-setting-out (six of nine settings contain
-both classes and can be scored).  Question formation: same rule and statistics, 5-fold CV x 20 over the 79 models.
+both classes and can be scored).  Question formation: same rule and the same five statistics at the 'quest' position, 5-fold CV x 20 over the 79 models.
 
 Inputs : heldout/features/cp5.npz (from extract_features.py), heldout/features/qf_cp300000.npz (from extract_qf_features.py, optional),
          data/transformer_head_properties.csv, question_formation_data/qf_matrix_aux_detector_raw_quest_membership_300000.csv
@@ -33,21 +32,26 @@ acc = 1 - (F["ood_probs"] >= 0.5).mean(1); assert np.allclose(acc, hp.cp5_ood_ac
 y = (acc >= 0.5).astype(int); n = len(y)
 hand_names = list(F["hand_names"]); hand = F["hand"].astype(float)
 rule_score = hand[:, [i for i, nm in enumerate(hand_names) if nm.endswith("ambi")]].max(1)          # (i) max ID hierarchical-head score
-headraw = F["headraw"].astype(float); n_stats = headraw.shape[-1]                                   # (n, 3 layers, 4 heads, 24), NaN = head absent
-with np.errstate(all="ignore"):
-    allheads = np.concatenate([np.nan_to_num(fn(headraw.reshape(n, -1, n_stats), axis=1)) for fn in (np.nanmax, np.nanmean, np.nanmin)], 1)
-    lastlayer = np.stack([headraw[i, int(hp.n_layer[i]) - 1] for i in range(n)])
-    lastpool = np.concatenate([np.nan_to_num(fn(lastlayer, axis=1)) for fn in (np.nanmax, np.nanmean, np.nanmin)], 1)
-generic = np.concatenate([allheads, lastpool], 1)                                                    # (ii) 144 numbers per model
+headraw = F["headraw"].astype(float); stats = [str(x) for x in F["headraw_names"]]                # (n, 3 layers, 4 heads, 24), NaN = head absent
+FIVE = ["relpos", "prof8", "maxw", "a_self", "allq_self"]                                              # (ii) the five statistics (see docstring)
+POOLS = ["all_max", "all_mean", "all_min"]                                                              # summary over heads: maximum, mean and minimum over all heads (15 numbers per model)
+def pool(raw, n_layer, names, sel, pools):
+    N = raw.shape[0]; idx = [names.index(x) for x in sel]
+    with np.errstate(all="ignore"):
+        last = np.stack([raw[i, int(n_layer[i]) - 1] for i in range(N)])[:, :, idx]; allh = raw.reshape(N, -1, raw.shape[-1])[:, :, idx]
+        parts = {"last_max": np.nanmax(last, 1), "last_mean": np.nanmean(last, 1), "last_min": np.nanmin(last, 1), "all_max": np.nanmax(allh, 1), "all_mean": np.nanmean(allh, 1), "all_min": np.nanmin(allh, 1)}
+    return np.nan_to_num(np.concatenate([parts[q] for q in pools], 1))
+generic = pool(headraw, hp.n_layer.values, stats, FIVE, POOLS)                                          # (n, 5 x len(POOLS))
 hyper = pd.get_dummies(hp[["n_layer", "n_head", "wd"]].astype(str)).values.astype(float)            # (iii)
 cells = (hp.n_layer.astype(str) + "_wd" + hp.wd.astype(str)).values
 
 def predict(name, tr, te):
     if name == "rule": return rule_score[te]
-    if name == "generic": return RandomForestClassifier(300, min_samples_leaf=2, random_state=0, n_jobs=1).fit(generic[tr], y[tr]).predict_proba(generic[te])[:, 1]
+    if name == "generic": return make_pipeline(StandardScaler(), LogisticRegression(C=0.5, max_iter=5000)).fit(generic[tr], y[tr]).predict_proba(generic[te])[:, 1]
+    if name == "generic_rf": return RandomForestClassifier(300, min_samples_leaf=2, random_state=0, n_jobs=1).fit(generic[tr], y[tr]).predict_proba(generic[te])[:, 1]
     if name == "hyper": return make_pipeline(StandardScaler(), LogisticRegression(C=0.5, max_iter=5000)).fit(hyper[tr], y[tr]).predict_proba(hyper[te])[:, 1]
 
-PRED = {"rule": "ID hierarchical-head rule", "generic": "Nesting-agnostic attention statistics (random forest)", "hyper": "Hyperparameters alone (logistic regression)"}
+PRED = {"rule": "ID hierarchical-head rule", "generic": "Five attention statistics (logistic regression)", "generic_rf": "Five attention statistics (random forest)", "hyper": "Hyperparameters alone (logistic regression)"}
 rows, per_cell = [], []
 splits = list(StratifiedShuffleSplit(n_splits=50, train_size=150, test_size=120, random_state=0).split(np.zeros(n), y))
 for name in PRED:
@@ -72,13 +76,12 @@ if os.path.exists(qf_path):
     yq = (mem.ood_accuracy.values >= 0.5).astype(int); nq = len(yq)
     qhand_names = list(Q["hand_names"]); qhand = Q["hand"].astype(float)
     q_rule = qhand[:, [i for i, nm in enumerate(qhand_names) if nm.endswith("matrix_prop_met") and int(nm[1]) <= 3]].max(1)   # first three layers, as in the paper
-    qg_names = list(Q["generic_names"]); qgen = Q["generic"].astype(float)[:, [i for i, nm in enumerate(qg_names) if "mass_" not in nm]]  # no part-of-speech information
+    qstats = [str(x) for x in Q["headraw_names"]]; qraw = Q["headraw"].astype(float)                          # (79, 6 layers, 8 heads, stats)
+    qgen = pool(qraw, np.full(nq, qraw.shape[1]), qstats, [{"a_bos": "a_sos"}.get(x, x) for x in FIVE], POOLS)   # same five statistics at the 'quest' position
     rows.append(dict(setting="question formation", scheme="fixed rule, all 79 models", predictor="Main Auxiliary-Detecting head (first three layers)", auroc_mean=roc_auc_score(yq, q_rule), auroc_sd=np.nan, n_folds=1))
-    au = []
-    for rep in range(20):
-        for tr, te in StratifiedKFold(5, shuffle=True, random_state=rep).split(qgen, yq):
-            au.append(roc_auc_score(yq[te], RandomForestClassifier(300, min_samples_leaf=2, random_state=0, n_jobs=1).fit(qgen[tr], yq[tr]).predict_proba(qgen[te])[:, 1]))
-    rows.append(dict(setting="question formation", scheme="5-fold CV (x20)", predictor="Attention statistics at the 'quest' position, no part-of-speech information (random forest)", auroc_mean=np.mean(au), auroc_sd=np.std(au, ddof=1), n_folds=len(au)))
+    for label, mk in [("Five attention statistics (logistic regression)", lambda: make_pipeline(StandardScaler(), LogisticRegression(C=0.5, max_iter=5000))), ("Five attention statistics (random forest)", lambda: RandomForestClassifier(300, min_samples_leaf=2, random_state=0, n_jobs=1))]:
+        au = [roc_auc_score(yq[te], mk().fit(qgen[tr], yq[tr]).predict_proba(qgen[te])[:, 1]) for rep in range(20) for tr, te in StratifiedKFold(5, shuffle=True, random_state=rep).split(qgen, yq)]
+        rows.append(dict(setting="question formation", scheme="5-fold CV (x20)", predictor=label, auroc_mean=np.mean(au), auroc_sd=np.std(au, ddof=1), n_folds=len(au)))
 else:
     print("no QF features found (run extract_qf_features.py); skipping question formation")
 
@@ -89,7 +92,7 @@ pd.set_option("display.width", 200); print(res.round(3).to_string(index=False))
 # ------------------------------------------------------------------ figure --------------------------------------------------------------
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt, seaborn as sns
 sns.set_style("whitegrid"); plt.rcParams["font.family"] = "serif"; plt.rcParams["font.serif"] = ["Times New Roman", "Nimbus Roman", "Liberation Serif", "DejaVu Serif"]; plt.rcParams["figure.dpi"] = 300
-items = [("Training\nConfiguration", "hyper"), ("Nesting-Agnostic\nAttention Stats.", "generic"), ("ID Hierarchical\nHead Rule", "rule")]
+items = [("Training\nConfiguration", "hyper"), ("Five Attention\nStatistics", "generic_rf"), ("ID Hierarchical\nHead Rule", "rule")]
 schemes = [("Random Splits", "random 150/120 splits (x50)", "#b6e6e6"), ("Unseen Hyperparameters", "leave one (depth, weight decay) setting out", "#1bb5b8")]
 dy = res[res.setting == "Dyck-1"].set_index(["scheme", "predictor"])
 fig, ax = plt.subplots(figsize=(7, 5.2)); h = 0.36

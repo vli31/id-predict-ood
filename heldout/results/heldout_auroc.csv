@@ -1,9 +1,12 @@
 setting,scheme,predictor,auroc_mean,auroc_sd,n_folds
 Dyck-1,random 150/120 splits (x50),ID hierarchical-head rule,0.8824721913236931,0.023849359475225266,50
-Dyck-1,random 150/120 splits (x50),Nesting-agnostic attention statistics (random forest),0.880984427141268,0.02641143072800513,50
+Dyck-1,random 150/120 splits (x50),Five attention statistics (logistic regression),0.782861512791991,0.0351355102052806,50
+Dyck-1,random 150/120 splits (x50),Five attention statistics (random forest),0.8815934371523915,0.028329400412616383,50
 Dyck-1,random 150/120 splits (x50),Hyperparameters alone (logistic regression),0.8812958843159067,0.02082434240850351,50
 Dyck-1,"leave one (depth, weight decay) setting out",ID hierarchical-head rule,0.7366452922077923,0.22764150380885395,6
-Dyck-1,"leave one (depth, weight decay) setting out",Nesting-agnostic attention statistics (random forest),0.7311830683684132,0.22178767742194472,6
+Dyck-1,"leave one (depth, weight decay) setting out",Five attention statistics (logistic regression),0.649999458874459,0.25718181072539065,6
+Dyck-1,"leave one (depth, weight decay) setting out",Five attention statistics (random forest),0.7151482683982685,0.27863065336035203,6
 Dyck-1,"leave one (depth, weight decay) setting out",Hyperparameters alone (logistic regression),0.47440331579340206,0.14995496523882745,6
 question formation,"fixed rule, all 79 models",Main Auxiliary-Detecting head (first three layers),0.7492743105950652,,1
-question formation,5-fold CV (x20),"Attention statistics at the 'quest' position, no part-of-speech information (random forest)",0.8151272727272726,0.10467938507394667,100
+question formation,5-fold CV (x20),Five attention statistics (logistic regression),0.7173636363636365,0.12405637745877542,100
+question formation,5-fold CV (x20),Five attention statistics (random forest),0.6652818181818182,0.14157160494070226,100
